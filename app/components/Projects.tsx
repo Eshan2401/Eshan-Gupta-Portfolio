@@ -1,12 +1,6 @@
-import { assets, workData } from '@/assets/assets';
-import Image from 'next/image';
 import React from 'react';
 
-type WorkProps = {
-  isDarkMode: boolean;
-};
-
-export default function Work({ isDarkMode }: WorkProps) {
+export default function Work() {
   return (
     <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-Ovo">My Porfolio</h4>
