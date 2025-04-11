@@ -5,10 +5,11 @@ import React, { useState } from 'react';
 export default function Contact() {
   const [result, setResult] = useState('');
 
-  const onSubmit = async (event: any) => {
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setResult('Sending....');
-    const formData = new FormData(event.target);
+    const form = event.currentTarget as HTMLFormElement;
+    const formData = new FormData(form);
 
     formData.append('access_key', '96ac335e-afd9-4b25-a705-c0a45e65ea95');
 
@@ -21,7 +22,7 @@ export default function Contact() {
 
     if (data.success) {
       setResult('Form Submitted Successfully');
-      event.target.reset();
+      (form as HTMLFormElement).reset();
     } else {
       console.log('Error', data);
       setResult(data.message);
