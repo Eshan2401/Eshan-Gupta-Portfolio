@@ -11,7 +11,7 @@ export default function Services({ isDarkMode }: ServicesProps) {
     <div>
       <div
         id="services"
-        className="flex flex-col items-center h-[90vh] justify-center w-full px-[12%] 2xl:px-[12%] scroll-mt-20"
+        className="flex flex-col items-center justify-center w-full px-[12%] py-[6%] scroll-mt-20"
       >
         <h4 className="text-center mb-2 text-lg font-Ovo">Further Education</h4>
         <h2 className="text-center text-5xl font-Ovo">My Certifications</h2>
