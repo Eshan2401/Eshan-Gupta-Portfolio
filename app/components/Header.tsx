@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Header() {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto h-[80vh] flex flex-col items-center justify-center gap-4">
+    <div className="w-11/12 max-w-3xl text-center mx-auto h-[90vh] flex flex-col items-center justify-center gap-4">
       <div>
         <Image src={assets.profile_img} alt="" className="rounded-full w-32" />
       </div>

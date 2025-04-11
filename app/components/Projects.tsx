@@ -2,7 +2,10 @@ import React from 'react';
 
 export default function Work() {
   return (
-    <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
+    <div
+      id="work"
+      className="flex flex-col items-center h-[50vh] justify-center w-full px-[12%] scroll-mt-20"
+    >
       <h4 className="text-center mb-2 text-lg font-Ovo">My Porfolio</h4>
       <h2 className="text-center text-5xl font-Ovo">Projects</h2>
 

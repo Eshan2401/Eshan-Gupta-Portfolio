@@ -91,8 +91,10 @@ export const workData = [
 
 export const serviceData = [
     { title: 'SAS Programming 1: Essentials', description: 'Writing SAS programs to access, explore, prepare, and analyze data.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743949232495/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
-    { title: 'ISTQB Foundation Level', description: 'Implementing techniques to find errors in a developed product.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743949210260/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
-    { title: 'Full-Stack Engineer Career Path', description: 'UI/UX design focuses on creating a seamless user experience...', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743948957883/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
+    { title: 'ISTQB Tester Foundation Level', description: 'Implementing techniques to find errors in a developed product.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743949210260/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
+    { title: 'Full-Stack Engineer Career Path', description: 'Utilised Front-end JavaScript and Back-end Python to build dynamic websites', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743948957883/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
+    { title: 'Codecademy Python 3 Course', description: 'Using Python and SQL to manipulate data for the purpose of reporting and predictive analysis', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743948933339/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI'},
+    { title: 'Codecademy C# Course', description: 'Developing interactive and dynamic games using C# and game development frameworks like Unity.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743948883414/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
     { title: 'CS50 - Intro to Computer Science', description: 'Learning how to think algorithmically and solve problems efficiently in C, Python, SQL, and JavaScript plus CSS and HTML.'},
 ]
 

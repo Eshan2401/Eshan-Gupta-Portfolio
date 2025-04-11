@@ -10,7 +10,7 @@ export default function About({ isDarkMode }: AboutProps) {
   return (
     <div
       id="about"
-      className="flex flex-col items-center justify-center w-full px-[12%] 2xl:px-[25%] py-10 scroll-mt-20"
+      className="flex flex-col items-center h-[90vh] justify-center w-full px-[12%] 2xl:px-[25%] scroll-mt-20"
     >
       <h4 className="mb-2 text-lg font-Ovo">Introduction</h4>
       <h2 className="text-5xl font-Ovo">About me</h2>
