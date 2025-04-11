@@ -37,8 +37,9 @@ export default function Contact() {
       <h2 className="text-center text-5xl font-Ovo">Contact Me</h2>
 
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
-        Thank you for exploring my webpage. I'd love to hear from you! If you
-        have any questions or constructive feedback, please use the form below.
+        Thank you for exploring my webpage. I&apos;d love to hear from you! If
+        you have any questions or constructive feedback, please use the form
+        below.
       </p>
 
       <form onSubmit={onSubmit} className="max-w-2xl mx-auto">

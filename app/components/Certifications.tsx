@@ -15,12 +15,12 @@ export default function Services({ isDarkMode }: ServicesProps) {
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
         Whilst undertaking my degree at Brighton, I realised that out of all the
         modules I was taking, I enjoyed and took the most pride in the Computer
-        Science modules. The Maths and Physics modules just didn't excite me in
-        the same way. When I left University, I knew that if I wanted to switch
-        career paths and pursue Software Development, I had a lot of catching up
-        to do. These Certifications are all courses that I paid for and
-        completed, in an effort to close the gap in knowledge between me and my
-        CompSci peers.{' '}
+        Science modules. The Maths and Physics modules just didn&apos;t excite
+        me in the same way. When I left University, I knew that if I wanted to
+        switch career paths and pursue Software Development, I had a lot of
+        catching up to do. These Certifications are all courses that I paid for
+        and completed, in an effort to close the gap in knowledge between me and
+        my CompSci peers.{' '}
       </p>
 
       <div className="grid grid-cols-auto gap-6 my-10">

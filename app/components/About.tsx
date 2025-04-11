@@ -28,9 +28,9 @@ export default function About({ isDarkMode }: AboutProps) {
             Mathematics graduate with hands-on experience with Typescript,
             Next.js, React, Kotlin and SpringBoot for building progressive web
             applications. Competent with Docker allowing me to test and run
-            databases locally, whilst testing API's and Asynchronous functions
-            with appropriately created arrays and objects generated using
-            Postman. With a proven ability to engage with clients and a
+            databases locally, whilst testing API&apos;s and Asynchronous
+            functions with appropriately created arrays and objects generated
+            using Postman. With a proven ability to engage with clients and a
             background in project work, seeking an entry-level position to
             kickstart a successful career in web development.
           </p>
