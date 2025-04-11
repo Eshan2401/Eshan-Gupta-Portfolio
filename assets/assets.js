@@ -6,10 +6,9 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
-import firebase from './firebase.png';
-import figma from './figma.png';
-import git from './git.png';
-import mongodb from './mongodb.png';
+import intellij from './intellij.png';
+import postman from './postman.png';
+import docker from './docker.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './EshanLogo.png';
 import logo_dark from './EshanLogo_dark.png';
@@ -27,10 +26,6 @@ import menu_black from './menu-black.png';
 import menu_white from './menu-white.png';
 import close_black from './close-black.png';
 import close_white from './close-white.png';
-import web_icon from './web-icon.png';
-import mobile_icon from './mobile-icon.png';
-import ui_icon from './ui-icon.png';
-import graphics_icon from './graphics-icon.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
@@ -45,10 +40,9 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
-    firebase,
-    figma,
-    git,
-    mongodb,
+    intellij,
+    postman,
+    docker,
     right_arrow_white,
     logo,
     logo_dark,
@@ -66,10 +60,6 @@ export const assets = {
     menu_white,
     close_black,
     close_white,
-    web_icon,
-    mobile_icon,
-    ui_icon,
-    graphics_icon,
     right_arrow,
     send_icon,
     right_arrow_bold,
@@ -100,19 +90,21 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { title: 'SAS Programming 1: Essentials', description: 'Writing SAS programs to access, explore, prepare, and analyze data.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743949232495/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
+    { title: 'ISTQB Foundation Level', description: 'Implementing techniques to find errors in a developed product.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743949210260/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
+    { title: 'Full-Stack Engineer Career Path', description: 'UI/UX design focuses on creating a seamless user experience...', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743948957883/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
+    { title: 'CS50 - Intro to Computer Science', description: 'Learning how to think algorithmically and solve problems efficiently in C, Python, SQL, and JavaScript plus CSS and HTML.'},
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, TypeScript, Kotlin' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bsc (Hons) Mathematics' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Local Pizzeria Website Security-Cams Website'}
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Frameworks', description: 'React, Next.js, Spring Boot, Tailwind' },
 ];
 
 export const toolsData = [
-    assets.vscode, 
-    // assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode,
+    assets.intellij,
+    assets.postman, 
+    assets.docker
 ];
