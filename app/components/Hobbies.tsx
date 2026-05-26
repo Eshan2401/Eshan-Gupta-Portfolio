@@ -19,7 +19,7 @@ export default function Hobbies() {
           <h3 className="text-xl font-semibold mb-4">Guitar</h3>
           <p className="text-gray-700 dark:text-gray-300">
             I&apos;m a Grade 8 acoustic guitarist and love playing a variety of
-            music genres, whether it's strumming or fingerstyle. I&apos;ve
+            music genres, whether it&apos;s strumming or fingerstyle. I&apos;ve
             played at a couple weddings and have even taught some lessons. I
             bought an electric recently, got to be careful or I&apos;ll get a
             noise complaint.
