@@ -25,14 +25,17 @@ export default function About({ isDarkMode }: AboutProps) {
         </div>
         <div className="flex-1">
           <p className="mb-10 max-w-2xl font-Ovo">
-            Mathematics graduate with hands-on experience with Typescript,
-            Next.js, React, Kotlin and SpringBoot for building progressive web
-            applications. Competent with Docker allowing me to test and run
-            databases locally, whilst testing API&apos;s and Asynchronous
-            functions with appropriately created arrays and objects generated
-            using Postman. With a proven ability to engage with clients and a
-            background in project work, seeking an entry-level position to
-            kickstart a successful career in web development.
+            I am an ISTQB-certified QA Automation Engineer with commercial
+            experience in manual and automated testing across web applications
+            and APIs. I specialise in Playwright automation, API testing with
+            Postman, and ensuring software quality through structured test
+            design, regression testing, and CI/CD integration. I have experience
+            validating REST APIs, identifying edge cases, and managing defects
+            using Jira within Agile teams. I also work with Dockerised
+            environments and GitHub Actions to support reliable and repeatable
+            testing workflows. I am now seeking an entry-level QA or SDET role
+            where I can apply my automation skills to help deliver reliable,
+            high-quality software.
           </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">

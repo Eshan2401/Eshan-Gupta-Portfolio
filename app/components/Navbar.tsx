@@ -67,8 +67,8 @@ export default function Navbar({ isDarkMode, setIsDarkMode }: NavbarProps) {
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#work">
-              Projects
+            <a className="font-Ovo" href="#hobbies">
+              Hobbies
             </a>
           </li>
         </ul>
@@ -129,12 +129,12 @@ export default function Navbar({ isDarkMode, setIsDarkMode }: NavbarProps) {
           </li>
           <li>
             <a className="font-Ovo" onClick={closeMenu} href="#services">
-              Services
+              Certifications
             </a>
           </li>
           <li>
-            <a className="font-Ovo" onClick={closeMenu} href="#work">
-              My Work
+            <a className="font-Ovo" onClick={closeMenu} href="#hobbies">
+              Hobbies
             </a>
           </li>
           <li>

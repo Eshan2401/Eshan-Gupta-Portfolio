@@ -90,18 +90,18 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { title: 'SAS Programming 1: Essentials', description: 'Writing SAS programs to access, explore, prepare, and analyze data.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743949232495/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
-    { title: 'ISTQB Tester Foundation Level', description: 'Implementing techniques to find errors in a developed product.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743949210260/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
-    { title: 'Full-Stack Engineer Career Path', description: 'Utilised Front-end JavaScript and Back-end Python to build dynamic websites', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743948957883/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
-    { title: 'Codecademy Python 3 Course', description: 'Using Python and SQL to manipulate data for the purpose of reporting and predictive analysis', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743948933339/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI'},
-    { title: 'Codecademy C# Course', description: 'Developing interactive and dynamic games using C# and game development frameworks like Unity.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743948883414/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
-    { title: 'CS50 - Intro to Computer Science', description: 'Learning how to think algorithmically and solve problems efficiently in C, Python, SQL, and JavaScript plus CSS and HTML.'},
+    { title: 'SAS Programming 1: Essentials', description: 'Developed foundational skills in data analysis, querying, and interpreting datasets to support structured validation and reporting.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743949232495/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
+    { title: 'ISTQB Tester Foundation Level', description: 'Core principles of software testing, design techniques, defect management, and structured quality assurance practices.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743949210260/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
+    { title: 'Full-Stack Engineer Career Path', description: 'Gained understanding of full application architecture, improving ability to design test cases accross the front and back ends.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743948957883/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
+    { title: 'Codecademy Python 3 Course', description: 'Built programming fundamentals useful for test automation, scripting, and data-driven testing approaches.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743948933339/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI'},
+    { title: 'Codecademy C# Course', description: 'Strengthened understanding of object-oriented programming, supporting better test design and edge case identification.', link: 'https://www.linkedin.com/in/eshan-gupta-a53205268/details/certifications/1743948883414/single-media-viewer/?profileId=ACoAAEGGv58BOcjUJQir7vh5nzQFo4RYoIxswlI' },
+    { title: 'CS50 - Intro to Computer Science', description: 'Developed strong problem-solving and algorithmic thinking skills applicable to debugging and structured test analysis.'},
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, TypeScript, Kotlin' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'TypeScript, JavaScript, Kotlin(basics)' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bsc (Hons) Mathematics' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Frameworks', description: 'React, Next.js, Spring Boot, Tailwind' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Frameworks', description: 'React, Playwright, Next.js, Tailwind' },
 ];
 
 export const toolsData = [

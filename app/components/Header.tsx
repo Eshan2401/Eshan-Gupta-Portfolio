@@ -13,11 +13,12 @@ export default function Header() {
         <Image src={assets.hand_icon} alt="" className="w-6" />
       </h3>
       <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">
-        Full-stack web developer based in London.
+        QA Automation Engineer ISTQB Certified
       </h1>
       <p className="max-w-2xl mx-auto font-Ovo">
-        I am a full-stack developer from Greater London with 5 months of
-        experience in web app development
+        I build and maintain automated test frameworks using Playwright and
+        TypeScript, with experience in API testing and CI/CD integration for
+        modern web applications.
       </p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <a
