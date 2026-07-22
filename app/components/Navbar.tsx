@@ -43,7 +43,7 @@ export default function Navbar({ isDarkMode, setIsDarkMode }: NavbarProps) {
       >
         <a href="#top">
           <Image
-            alt="image"
+            alt="Eshan Gupta Logo"
             src={isDarkMode ? assets.logo_dark : assets.logo}
             className="w-28 cursor-pointer mr-14"
           />
@@ -74,7 +74,10 @@ export default function Navbar({ isDarkMode, setIsDarkMode }: NavbarProps) {
         </ul>
 
         <div className="flex items-center gap-4">
-          <button onClick={() => setIsDarkMode((prev: boolean) => !prev)}>
+          <button
+            aria-label="Toggle dark mode"
+            onClick={() => setIsDarkMode((prev: boolean) => !prev)}
+          >
             <Image
               src={isDarkMode ? assets.sun_icon : assets.moon_icon}
               alt=""
