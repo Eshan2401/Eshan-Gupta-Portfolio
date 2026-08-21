@@ -73,7 +73,9 @@ export default function Contact() {
         >
           Submit <Image src={assets.right_arrow_white} alt="" className="w-4" />
         </button>
-        <p className="mt-4">{result}</p>
+        <p role="status" aria-live="polite" className="mt-4">
+          {result}
+        </p>
       </form>
     </div>
   );
